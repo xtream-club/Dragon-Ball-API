@@ -1,16 +1,13 @@
-from flask import Flask, jsonify
-from app.routes.character import character_blueprint
-from app.routes.saga import saga_blueprint
-from app.routes.planeta import planet_blueprint
-from app.routes.fusion import fusion_blueprint
-from app.routes.videogame import game_blueprint
+from flask import jsonify
 
-app = Flask(__name__)
-app.config['JSON_AS_ASCII'] = False
+from app import create_app
 
 data_info = {"character": "/character/information/name", "planet": "/planet/information/name",
              "saga": "/saga/information/name", "fusion": "/fusion/information/name",
              "game": "/videogame/information/name"}
+
+app = create_app()
+app.config['JSON_AS_ASCII'] = False
 
 
 @app.route("/")
@@ -18,10 +15,6 @@ def home():
     return jsonify(data_info)
 
 
-if __name__ == '__main__':
-    app.register_blueprint(character_blueprint)
-    app.register_blueprint(saga_blueprint)
-    app.register_blueprint(planet_blueprint)
-    app.register_blueprint(fusion_blueprint)
-    app.register_blueprint(game_blueprint)
-    app.run()
+if __name__ == "__main__":
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=5000)

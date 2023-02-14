@@ -9,7 +9,6 @@ character_blueprint = Blueprint('character', __name__)
 
 @character_blueprint.route("/" + base_name + "/information" + "/<string:character_name>")
 def character(character_name):
-    print("entro a la ruta")
     character_name = Characters.Characters(character_name).character_information()
     return make_response(jsonify(character_name), 200)
 
