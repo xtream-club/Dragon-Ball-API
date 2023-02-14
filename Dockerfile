@@ -1,10 +1,10 @@
 # Utilizamos una imagen de Python como base
 FROM python:3.9-alpine
 
-# Establecemos el directorio de trabajo en /app
-WORKDIR /app
+# Establecemos el directorio de trabajo en /application
+WORKDIR /application
 
-# Copiamos los archivos de nuestra aplicación a /app
+# Copiamos los archivos de nuestra aplicación a /application
 COPY . .
 
 # Instalamos las dependencias de nuestra aplicación
