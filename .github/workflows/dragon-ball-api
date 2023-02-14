@@ -1,4 +1,4 @@
-name: dragon-ball-api
+name: dragon-api
 
 on:
   push:
