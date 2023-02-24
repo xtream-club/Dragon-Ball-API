@@ -4,7 +4,7 @@ Api unofficial de Dragon Ball inspirado en su fandom. https://dragonball.fandom.
 
 USO
 ===============
-Accede a los datos mediante la siguiente url https://dragonballapi.onrender.com/
+Accede a los datos mediante la siguiente url https://dragonballapi.vercel.app/
 
 Para poder buscar los datos que necesites debemos de indicar lo que queremos buscar, seguido de information y el nombre.
 
@@ -16,19 +16,19 @@ Ejemplos
 ===============
 Datos del personaje Goku
 
-https://dragonballapi.onrender.com/character/information/goku
+https://dragonballapi.vercel.app/character/information/goku
 
 Lista de personajes
 
-https://dragonballapi.onrender.com/character/list
+https://dragonballapi.vercel.app/character/list
 
 Datos del planeta Vegeta
 
-https://dragonballapi.onrender.com/planet/information/Planeta_Vegeta
+https://dragonballapi.vercel.app/planet/information/Planeta_Vegeta
 
 Lista de planetas
 
-https://dragonballapi.onrender.com/planet/list
+https://dragonballapi.vercel.app/planet/list
 
 Plataformas
 ===============
