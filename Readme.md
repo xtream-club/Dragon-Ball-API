@@ -4,7 +4,7 @@ Api unofficial de Dragon Ball inspirado en su fandom. https://dragonball.fandom.
 
 USO
 ===============
-Accede a los datos mediante la siguiente url https://dragonballapi.vercel.app/
+Accede a los datos mediante la siguiente url https://dragonballapi-backend.vercel.app/
 
 Para poder buscar los datos que necesites debemos de indicar lo que queremos buscar, seguido de information y el nombre.
 
