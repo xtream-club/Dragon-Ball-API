@@ -10,7 +10,7 @@ Para poder buscar los datos que necesites debemos de indicar lo que queremos bus
 
 Puedes buscar el código fuente de la API
 
-https://github.com/eduardo-nanguelu/Dragon-Ball-API
+https://github.com/xtream-club/Scrapper-DragonBall
 
 Ejemplos
 ===============
