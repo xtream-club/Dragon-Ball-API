@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from app.routes.character import character_blueprint
 from app.routes.saga import saga_blueprint
 from app.routes.planet import planet_blueprint
@@ -8,7 +9,7 @@ from app.routes.videogame import game_blueprint
 
 def create_app():
     app = Flask(__name__)
-
+    CORS(app)
     app.register_blueprint(character_blueprint)
     app.register_blueprint(saga_blueprint)
     app.register_blueprint(planet_blueprint)
