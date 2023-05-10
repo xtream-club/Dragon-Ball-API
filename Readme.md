@@ -16,19 +16,19 @@ Ejemplos
 ===============
 Datos del personaje Goku
 
-https://dragonballapi.vercel.app/character/information/goku
+https://dragonballapi-backend.vercel.app/character/information/goku
 
 Lista de personajes
 
-https://dragonballapi.vercel.app/character/list
+https://dragonballapi-backend.vercel.app/character/list
 
 Datos del planeta Vegeta
 
-https://dragonballapi.vercel.app/planet/information/Planeta_Vegeta
+https://dragonballapi-backend.vercel.app/planet/information/Planeta_Vegeta
 
 Lista de planetas
 
-https://dragonballapi.vercel.app/planet/list
+https://dragonballapi-backend.vercel.app/planet/list
 
 Plataformas
 ===============
